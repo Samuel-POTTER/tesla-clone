@@ -18,14 +18,12 @@ export const Navcontainer = {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.8
+        staggerChildren: 0.5
       }
     }
   }
   
 export const Navitem = {
 hidden: { opacity: 0 },
-show: { opacity: 1, transition: {
-    duration: 2
-    }}
+show: { opacity: 1 }
 }
